@@ -11,6 +11,8 @@
 		71B57C8919C7705600EF6AE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B57C8819C7705600EF6AE3 /* AppDelegate.m */; };
 		71B57C8B19C7705600EF6AE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B57C8A19C7705600EF6AE3 /* Images.xcassets */; };
 		71B57C9A19C7705700EF6AE3 /* EmptyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B57C9919C7705700EF6AE3 /* EmptyProjectTests.m */; };
+		E796636F19C9085600699D2B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E796636E19C9085600699D2B /* ListViewController.m */; };
+		E796637219C908BA00699D2B /* ListTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E796637119C908BA00699D2B /* ListTableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,10 @@
 		71B57C9319C7705700EF6AE3 /* EmptyProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmptyProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B57C9819C7705700EF6AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71B57C9919C7705700EF6AE3 /* EmptyProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyProjectTests.m; sourceTree = "<group>"; };
+		E796636D19C9085600699D2B /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		E796636E19C9085600699D2B /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		E796637019C908BA00699D2B /* ListTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewDataSource.h; sourceTree = "<group>"; };
+		E796637119C908BA00699D2B /* ListTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,10 @@
 			children = (
 				71B57C8719C7705600EF6AE3 /* AppDelegate.h */,
 				71B57C8819C7705600EF6AE3 /* AppDelegate.m */,
+				E796637019C908BA00699D2B /* ListTableViewDataSource.h */,
+				E796637119C908BA00699D2B /* ListTableViewDataSource.m */,
+				E796636D19C9085600699D2B /* ListViewController.h */,
+				E796636E19C9085600699D2B /* ListViewController.m */,
 				71B57C8A19C7705600EF6AE3 /* Images.xcassets */,
 				71B57C8319C7705600EF6AE3 /* Supporting Files */,
 			);
@@ -208,6 +218,8 @@
 			files = (
 				71B57C8919C7705600EF6AE3 /* AppDelegate.m in Sources */,
 				71B57C8619C7705600EF6AE3 /* main.m in Sources */,
+				E796637219C908BA00699D2B /* ListTableViewDataSource.m in Sources */,
+				E796636F19C9085600699D2B /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +393,7 @@
 				71B57C9F19C7705700EF6AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71B57CA019C7705700EF6AE3 /* Build configuration list for PBXNativeTarget "EmptyProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -389,6 +402,7 @@
 				71B57CA219C7705700EF6AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
